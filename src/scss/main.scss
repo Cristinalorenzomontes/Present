@@ -532,6 +532,10 @@ body {
 }
 
 @media all and (max-width: 768px) {
+  nav ul{
+    display: block;
+  }
+
   .general-container {
     position: absolute;
     top: 100%;
