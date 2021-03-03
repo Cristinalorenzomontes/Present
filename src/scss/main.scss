@@ -531,5 +531,12 @@ body {
   box-shadow: -5px 7px 5px #302a1d, inset 0 -2px 15px #302a1d;
 }
 
-@media all and (min-width: 768px) {
+@media all and (max-width: 768px) {
+  .general-container {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+  }
 }
